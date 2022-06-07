@@ -11,3 +11,4 @@ Example
 
       hashmap.merge("key", 1, Integer::sum) - remapping function does a sum of existing value at key and the new vakue if the key is already found
 
+- Two Sum - Return indices of values in an array who's sum would be targeted value; To cater for O(n) implemetation, use a hashmap to store values not found, then be checking whether the remainder of subtraction of current num is in hashmap
