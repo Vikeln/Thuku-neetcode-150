@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dba22dd-8df8-4933-b3f7-3e7f1e0d44d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654588412909</updated>
       <workItem from="1654588415414" duration="6380000" />
-      <workItem from="1654606605695" duration="29000" />
+      <workItem from="1654606605695" duration="70000" />
     </task>
     <servers />
   </component>
