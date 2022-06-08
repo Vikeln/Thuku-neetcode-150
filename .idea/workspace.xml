@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dba22dd-8df8-4933-b3f7-3e7f1e0d44d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +37,9 @@
       <recent name="C:\Users\kthuku\IdeaProjects\Practice\neetcode-150\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kthuku\IdeaProjects\Practice\neetcode-150" />
       <recent name="C:\Users\kthuku\IdeaProjects\Practice\neetcode-150\src\Arrays" />
       <recent name="C:\Users\kthuku\IdeaProjects\Practice\neetcode-150\src" />
-      <recent name="C:\Users\kthuku\IdeaProjects\Practice\neetcode-150" />
     </key>
   </component>
   <component name="RunManager">
@@ -77,7 +77,7 @@
       <updated>1654588412909</updated>
       <workItem from="1654588415414" duration="6380000" />
       <workItem from="1654606605695" duration="98000" />
-      <workItem from="1654675853870" duration="3329000" />
+      <workItem from="1654675853870" duration="3591000" />
     </task>
     <servers />
   </component>
