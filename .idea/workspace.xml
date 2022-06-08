@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dba22dd-8df8-4933-b3f7-3e7f1e0d44d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/TopKFrequent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ValidAnagram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="practice" type="JUnit" factoryName="JUnit">
       <module name="neetcode-150" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -64,7 +73,7 @@
       <updated>1654588412909</updated>
       <workItem from="1654588415414" duration="6380000" />
       <workItem from="1654606605695" duration="98000" />
-      <workItem from="1654675853870" duration="1777000" />
+      <workItem from="1654675853870" duration="3265000" />
     </task>
     <servers />
   </component>

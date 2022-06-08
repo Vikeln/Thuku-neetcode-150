@@ -14,3 +14,5 @@ Example
 - Two Sum - Return indices of values in an array who's sum would be targeted value; To cater for O(n) implemetation, use a hashmap to store values not found, then be checking whether the remainder of subtraction of current num is in hashmap
 - Group Anagrams - Create a hash for each word and group them together if they have the same hash. 
 Method can be applied for valid anagrams too
+  
+- TopKFrequency - This probem test for knowledge of priority queues, where values are stored by priority, ie highest to lowest, but does not replace values.
