@@ -1,18 +1,23 @@
 package Arrays;
 
 public class GroupAnagrams {
+
     public static void main(String[] args) {
 
-//        String[] list = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        String[] list = {"eat"};
+        String[] list = {"eat", "tea", "tan", "ate", "nat", "bat"};
+//        String[] list = {"eat"};
 
         List<List<String>> rturn = groupAnagrams(list);
-        for (List<String> list1 : rturn) {
-            System.out.println("Line ");
-            for (String string : list1) {
-                System.out.println("value " + string);
-            }
-        }
+        List<List<String>> rturn2 = groupAnagrams2(list);
+        List<List<String>> rturn1 = groupAnagrams1(list);
+
+        System.out.println("rturn");
+        System.out.println(Arrays.asList(rturn));
+        System.out.println("rturn2");
+        System.out.println(Arrays.asList(rturn2));
+        System.out.println("rturn1");
+        System.out.println(Arrays.asList(rturn1));
+
 
     }
 
@@ -35,8 +40,8 @@ public class GroupAnagrams {
                     }
                 }
             }
-
-            list.add(anagrams);
+            if (!anagrams.isEmpty())
+                list.add(anagrams);
         }
         return list;
     }
@@ -60,5 +65,47 @@ public class GroupAnagrams {
             if (!stringIntegerMap.get(leter).equals(strIntegerMap.get(leter))) return false;
 
         return true;
+    }
+
+    // BEST
+    public static List<List<String>> groupAnagrams1(String[] strs) {
+        List<List<String>> res = new ArrayList<>();
+        if(strs.length==0) return res;
+        HashMap<String, List<String>> map = new HashMap();
+        for(String s: strs){
+            char[] hash = new char[26];
+            for(char c: s.toCharArray()){
+                hash[c-'a']++;
+            }
+            String str=new String(hash);
+
+            if(map.get(str)==null){
+                map.put(str, new ArrayList<>());
+            }
+            map.get(str).add(s);
+        }
+        res.addAll(map.values());
+        return res;
+    }
+
+
+    // checksums has an inherent problem. issue is the checksum can be gotten by adding different values i.e 1+5+4=10 and also 3+3+4=10
+    public static List<List<String>> groupAnagrams2(String[] strs) {
+        List<List<String>> res = new ArrayList<>();
+        if(strs.length==0) return res;
+        HashMap<Integer, List<String>> map = new HashMap();
+        for(String s: strs){
+            int checksum=0;
+            for(char c: s.toCharArray()){
+                checksum += (int) c;
+            }
+
+            if(map.get(checksum)==null){
+                map.put(checksum, new ArrayList<>());
+            }
+            map.get(checksum).add(s);
+        }
+        res.addAll(map.values());
+        return res;
     }
 }

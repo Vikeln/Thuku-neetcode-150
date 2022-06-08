@@ -35,5 +35,25 @@ public class ValidAnagram {
         return true;
     }
 
+//    using hashes developed for each word.matching hashes give anagrams
+ public static boolean isAnagram3(String s, String t) {
+
+        if (s.equals(t))
+            return true;
+        if (t.length()!=s.length())
+            return false;
+
+        char[] firstchar = new char[26];
+        for (char c : s.toCharArray())
+            firstchar[c-'a']++;
+
+     char[] secondchar = new char[26];
+        for (char c : t.toCharArray())
+            secondchar[c-'a']++;
+        if (new String(firstchar).equals(new String(secondchar)))
+        return true;
+        return false;
+    }
+
 
 }
