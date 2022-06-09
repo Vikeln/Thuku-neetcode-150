@@ -44,3 +44,5 @@ PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>((e1, e2
 ```
 
 - ArrayProductExceptSelf - This problem emphasizes traversing an array from LHS and also from RHS. The product of elements of an array can be gotten through multiplying proudct of values from L->R and R->L
+
+- LongestConsecutive - This problem can be easily solved using a hashmap. Put all values into the hashmap as keys, values as booleans which are toogled on check of each, then loop through the objects checking if the left and right values (-1 and +1 ) exist in the hashmap

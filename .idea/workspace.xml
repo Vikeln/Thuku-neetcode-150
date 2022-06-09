@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dba22dd-8df8-4933-b3f7-3e7f1e0d44d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ArrayProductExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LongestConsecutive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arrays/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/README.md" afterDir="false" />
@@ -45,15 +45,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,7 +80,8 @@
       <workItem from="1654588415414" duration="6380000" />
       <workItem from="1654606605695" duration="98000" />
       <workItem from="1654675853870" duration="3845000" />
-      <workItem from="1654765683570" duration="312000" />
+      <workItem from="1654765683570" duration="346000" />
+      <workItem from="1654770346156" duration="560000" />
     </task>
     <servers />
   </component>
