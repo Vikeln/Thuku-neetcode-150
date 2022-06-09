@@ -42,3 +42,5 @@ PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>((e1, e2
             }
         }
 ```
+
+- ArrayProductExceptSelf - This problem emphasizes traversing an array from LHS and also from RHS. The product of elements of an array can be gotten through multiplying proudct of values from L->R and R->L
