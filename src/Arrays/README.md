@@ -35,12 +35,12 @@ The problem uses learnings from merging map entries if the keys match
 PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>((e1, e2) -> e1.getValue() -
                 e2.getValue());
 
-        for(Map.Entry<Integer, Integer> entry : frequence.entrySet()) {
-            minHeap.add(entry);
-            if (minHeap.size() > k) {
-                minHeap.poll();
-            }
-        }
+  for(Map.Entry<Integer, Integer> entry : frequence.entrySet()) {
+     minHeap.add(entry);
+     if (minHeap.size() > k) {
+         minHeap.poll();
+  }
+}
 ```
 
 - ArrayProductExceptSelf - This problem emphasizes traversing an array from LHS and also from RHS. The product of elements of an array can be gotten through multiplying proudct of values from L->R and R->L
@@ -49,12 +49,12 @@ PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>((e1, e2
 - LongestConsecutive - This problem can be easily solved using a hashmap. Put all values into the hashmap as keys, values as booleans which are toogled on check of each, then loop through the objects checking if the left and right values (-1 and +1 ) exist in the hashmap
 ``` 
  while(map.containsKey(left)){
-                --left;
-                currentLongest++;
-            }
-            while (map.containsKey(right)){
-                ++right;
-                currentLongest++;
-            }
-            longest = Math.max(longest, currentLongest);
+      --left;
+      currentLongest++;      
+}
+ while (map.containsKey(right)){
+      ++right;
+      currentLongest++;
+}
+longest = Math.max(longest, currentLongest);
 ```
