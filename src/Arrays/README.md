@@ -58,3 +58,5 @@ PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>((e1, e2
             }
             longest = Math.max(longest, currentLongest);
 ```
+
+- ValidSudoku - This exercise also tested HashMap manipulation 
