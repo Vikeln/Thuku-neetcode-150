@@ -61,3 +61,16 @@ PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>((e1, e2
 
 - ValidSudoku - This exercise also tested HashMap manipulation 
 
+- Encode & Decode Strings - To test string manipulation. Used String concatenation to solve
+```
+    public static String encode(List<String> strs) {
+        // write your code here
+        return strs.stream().collect(Collectors.joining(":;"));
+    }
+
+    public  static List<String> decode(String str) {
+        // write your code here
+        return Arrays.asList(str.split(":;").clone());
+    }
+
+```
