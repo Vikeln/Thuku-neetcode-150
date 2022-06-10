@@ -35,12 +35,12 @@ The problem uses learnings from merging map entries if the keys match
 PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>((e1, e2) -> e1.getValue() -
                 e2.getValue());
 
-        for(Map.Entry<Integer, Integer> entry : frequence.entrySet()) {
-            minHeap.add(entry);
-            if (minHeap.size() > k) {
-                minHeap.poll();
-            }
-        }
+  for(Map.Entry<Integer, Integer> entry : frequence.entrySet()) {
+     minHeap.add(entry);
+     if (minHeap.size() > k) {
+         minHeap.poll();
+  }
+}
 ```
 
 - ArrayProductExceptSelf - This problem emphasizes traversing an array from LHS and also from RHS. The product of elements of an array can be gotten through multiplying proudct of values from L->R and R->L
@@ -60,3 +60,4 @@ PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>((e1, e2
 ```
 
 - ValidSudoku - This exercise also tested HashMap manipulation 
+
