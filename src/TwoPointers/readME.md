@@ -1,7 +1,5 @@
-# neetcode-150
-neetcode-150
 
-### Two Pointers 17062022
+# Two Pointers 17062022
 - Valid Palindrome - This exercise was checking on handling of two pointers while traversing a string, from the start and from the end
 
 

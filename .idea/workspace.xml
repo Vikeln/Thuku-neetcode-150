@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dba22dd-8df8-4933-b3f7-3e7f1e0d44d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/readME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/BestTimeToBuyStocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointers/readME.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/readME.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +29,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kthuku\IdeaProjects\Practice\neetcode-150\src" />
