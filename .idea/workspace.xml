@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dba22dd-8df8-4933-b3f7-3e7f1e0d44d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/BestTimeToBuyStocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointers/readME.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/readME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/BestTimeToBuyStocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/BestTimeToBuyStocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     <configuration name="practice" type="JUnit" factoryName="JUnit">
       <module name="neetcode-150" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files (x86)/Java/jre1.8.0_333" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />

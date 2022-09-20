@@ -3,7 +3,7 @@ package SlidingWindow;
 public class BestTimeToBuyStocks {
 
     public static void main(String[] args) {
-        int[] ints = new int[]{7,1,2,3,5,6,2};
+        int[] ints = new int[]{1,7,2,3,5,6,2};
         int maxProfit = maxProfit(ints);
         System.out.println(maxProfit);
     }
